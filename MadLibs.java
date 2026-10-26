@@ -1,6 +1,7 @@
 import java.util.Scanner; 
 
 //Bhavya
+//Initialized scanner and main variables for the MadLib
 public class MadLibs {
         public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -44,6 +45,7 @@ public class MadLibs {
         scanner.close();
 
         //Arnesh
+        // Wrote the first section of the Mad Lib, using inputs from Bhavya's parts and outputting them for the initial section of the MadLib
         System.out.println("*trumpets*");
         System.out.println("Hear ye, hear ye, for I have a public declaration from Lord " + input1 + "!");
         String crime = "We are searching for the most ";
@@ -54,17 +56,20 @@ public class MadLibs {
         System.out.println(crime);
         
         //Dylan
+        // Wrote the second and the third sections using inputs from Bhavya's scanners
         System.out.print("The horrendous crime was commited at " + input6 + " in " + input7 + ".");
         System.out.print(" This crime led to the horrendous death of a whopping TWO, wait no, TWO AND A HALF, wait no, " + input13 + " people, including King " + input8 + " Timmy, and landed " + input10 + " people in the " + input9 +". ");
         System.out.print("We are seeking any and all information on the accused's " + input5 + " " + input2 + " " + input3 + " whereabouts. ");
         System.out.print("We will pay highly for all informations, and we can pay handsomely, such as " + input10 + " ounces of " + input11 + " or a singular cookie. ");
 
         //Aarav
+        //Wrote the fourth part using scanner and concatenated the strings
         System.out.println("Until" + " " +  input5 + " " + input2 + " "+ input3 + " " + "is caught, Lord" + " " + input1 + " "  + "will not stop at hunting down this traitorous vermin. ");
         System.out.println("And to keep everyone safe and out of the" + " " + input9 + ", the entire cult has decreed that all ");
         System.out.println("citizens must stay inside of their humble abodes until the suspect has been captured. ");
 
         //Anya
+        //Wrote the final section using Bhavya's scanner
         System.out.println("Therefore, Lord " + input1 + " has decreed that the punishment for the guilty will be one of the following:");
         System.out.println("    1. Trampled to death by " + input12);
         System.out.println("    2. Crushed by sacks of " + input11);
